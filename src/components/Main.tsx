@@ -1,6 +1,5 @@
 import React from "react";
 import ByType from "./ByType";
-import ByColour from "./ByColour";
 
 const Main = () => {
   return (
@@ -12,7 +11,6 @@ const Main = () => {
       </div>
       <div className="flex justify-center mt-8">
         <ByType />
-        <ByColour />
       </div>
     </div>
   );
